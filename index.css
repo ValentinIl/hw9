@@ -1,0 +1,54 @@
+/*----------Layot----------*/
+
+body{
+	background: #E3CAA1;
+}
+
+.nav-with-drapdown *{
+	font-size: 1.5rem;
+}
+
+.nav-with-drapdown{
+	margin: 20px;
+	font-size: 0;
+}
+
+.nav-with-drapdown>li{
+	display: inline-block;
+	background: #FFF;
+}
+
+.nav-with-drapdown>li>a{
+	display: block;
+	padding: 20px;
+}
+
+/*----------Module----------*/
+
+.subnav{
+	position: absolute;
+	background: #555555;
+	display: none;
+}
+
+.subnav>li>a{
+	display: block;
+	padding: 20px;
+	color: white;
+}
+
+/*----------State----------*/
+
+.nav-with-drapdown>li:hover a{ 
+	color: white;
+	background: #555555;
+}
+
+.item-with-subnav:hover .subnav{
+	display: block;
+}
+
+.subnav li:hover a{
+	background-color: #777777;
+	cursor: pointer;
+}

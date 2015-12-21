@@ -1,0 +1,32 @@
+/*----------Layot----------*/
+
+.tooltip_box{
+	margin: 10px;
+	background: #fff;
+	width: 50%;
+	float: left;
+}
+
+/*----------Module----------*/
+
+.tooltip-parent{
+	color: #265476;
+	text-decoration: underline;
+	display: inline;
+	position: relative;
+}
+
+.tooltip{
+	position: absolute;
+	display: none;
+	top: -54px;
+	left: -10px;
+	width: 200px;
+	color: #fff;
+}
+
+/*----------State----------*/
+
+.tooltip-parent:active .tooltip{
+	display: inline-block;
+}
